@@ -61,3 +61,16 @@ html{
     font-size: 8vw;
     padding: 55px;
 }
+/*Buttons*/
+.btn{
+    border:3px solid #71b589;
+    font-size:20px;
+    padding:8px;
+}
+
+.btn-group{
+    margin-top:30px;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:50px;
+}
