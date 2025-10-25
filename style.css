@@ -35,3 +35,29 @@ html{
     color:white !important;
 } 
 
+/*menucover*/
+
+.festivalcover{
+    height: 300px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color:#71b589;
+    width:inherit;
+    margin:0;
+}
+
+.festivalcover h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Quintessential", serif;
+    font-style:normal;
+    font-size: 8vw;
+    padding: 55px;
+}
