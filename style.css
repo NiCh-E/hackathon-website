@@ -62,7 +62,7 @@ html{
     padding: 55px;
 }
 /*Buttons*/
-.btn{
+.btn-group .btn{
     border:3px solid #71b589;
     font-size:20px;
     padding:8px;
@@ -73,4 +73,85 @@ html{
     padding-left:200px;
     padding-right:200px;
     padding-bottom:50px;
+}
+
+/*festival*/
+.festival-row{
+    margin:auto;
+}
+
+.festival h1{
+    text-align: center;
+    padding:20px; 
+    font-size:50px;
+    margin:none;
+    font-family: serif;
+    font-style:normal;
+    color:white;
+    margin-bottom:25px;
+}
+
+.season h1{
+    background-color: #71b589;
+}
+
+.festival img{
+    width:100%;
+    margin: 10px 3.8vw;
+    vertical-align: center;
+}
+
+.eachfest{
+    margin-bottom: 30px;
+}
+
+.festival .btn{
+    text-align:center;
+    width:100%;
+    margin:auto;
+    background-color:#71b589;
+    font-size:20px;
+    color:white;
+    border:3px solid #71b589;
+    font-size:15px;
+    padding:5px;
+}
+
+.festival .btn:hover{
+    text-align:center;
+    width:100%;
+    margin:auto;
+    background-color:white;
+    font-size:20px;
+    color:#71b589;
+    border:3px solid #71b589;
+    font-size:15px;
+    padding:5px;
+}
+
+/*food*/
+.maptxt{
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*explore*/
+.explore{
+    margin-top:20px;
+}
+
+.chicken{
+    width: 50%;
+}
+
+.explore .btn{
+    text-align:center;
+    width:100%;
+    margin:auto;
+    background-color:#71b589;
+    font-size:20px;
+    color:white;
+    border:3px solid #71b589;
+    font-size:15px;
+    padding:5px;
 }
