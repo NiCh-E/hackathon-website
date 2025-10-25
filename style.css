@@ -144,13 +144,25 @@ html{
     width: 50%;
 }
 
-.explore .btn{
+.card-body .btn{
     text-align:center;
     width:100%;
     margin:auto;
     background-color:#71b589;
-    font-size:20px;
+    font-size:40px;
     color:white;
+    border:3px solid white;
+    font-size:15px;
+    padding:5px;
+}
+
+.card-body .btn:hover{
+    text-align:center;
+    width:100%;
+    margin:auto;
+    background-color:white;
+    font-size:20px;
+    color:#71b589;
     border:3px solid #71b589;
     font-size:15px;
     padding:5px;
