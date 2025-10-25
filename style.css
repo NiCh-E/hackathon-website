@@ -35,32 +35,3 @@ html{
     color:white !important;
 } 
 
-
-/*Homecover*/
-
-.homecover{
-    height: 450px;
-    position: relative;
-    background-image: url(https://codehs.com/uploads/2b9b7b4558e7bf6ef6853fd3fe982f03);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    background-color:#0c963f;
-    width:inherit;
-    margin:0;
-}
-
-.homecover h1{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color:white;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: "Quintessential", serif;
-    font-style:normal;
-    font-size: 12vw;
-    background-color: rgba(239, 239, 240, 0.2);
-    padding: 55px;
-}
